@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+
+
+
+    <item android:title="Konto">
+        <menu>
+            <group android:checkableBehavior="single">
+             <item
+             android:id="@+id/nav_account"
+             android:title="Konto"
+             android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+
+             <item
+             android:id="@+id/nav_friends"
+            android:title="Znajomi"
+            android:icon="@drawable/ic_baseline_person_add_24"/>
+
+
+            <item
+                android:id="@+id/nav_mess"
+                android:title="Wiadmości"
+                android:icon="@drawable/ic_baseline_message_24"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Wyloguj"
+                android:icon="@drawable/ic_baseline_logout_24"/>
+            </group>
+        </menu>
+    </item>
+
+
+
+    <item android:title="Moduły">
+    <menu>
+
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_atlas"
+            android:title="Atlas rybi prznet"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+        <item
+            android:id="@+id/nav_poradnik"
+            android:title="Poradni na różne sytuacje"
+            android:icon="@drawable/ic_baseline_format_list_bulleted_24"/>
+
+        <item
+            android:id="@+id/nav_map"
+            android:title="Wędkarska mapa Polski"
+            android:icon="@drawable/ic_baseline_map_24"/>
+
+        <item
+            android:id="@+id/nav_ranking"
+            android:title="Ranking zdobyczy"
+            android:icon="@drawable/ic_baseline_keyboard_arrow_up_24"/>
+
+        <item
+            android:id="@+id/nav_calc"
+            android:title="Kalkulator"
+            android:icon="@drawable/ic_baseline_calculate_24"/>
+
+        </group>
+    </menu>
+    </item>
+
+</menu>
